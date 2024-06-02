@@ -1,0 +1,7 @@
+cd new
+git init
+echo "Hello, World!" > hello.txt
+git add hello.txt
+git commit -m "Hello World"
+git remote add origin https://github.com/Shobhit245/Week2
+git push -u origin master

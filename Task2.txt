@@ -1,0 +1,5 @@
+git checkout -b new-feature
+echo "This is a new feature." > feature.txt
+git add feature.txt
+git commit -m "Added feature.txt with new features"
+git push -u origin new-feature
